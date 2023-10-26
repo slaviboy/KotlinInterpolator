@@ -64,7 +64,7 @@ object EasingProvider {
     /**
      * Easing Curve that speeds up quickly and ends slowly.
      *
-     * ![Ease Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease.gif)
+     * ![Ease Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease.gif)
      */
     private fun ease(fraction: Float): Float {
         return cubicBezierEasing(0.25f, 0.1f, 0.25f, 1.0f, fraction)
@@ -73,7 +73,7 @@ object EasingProvider {
     /**
      * Easing Curve that starts quickly and ends slowly.
      *
-     * ![EaseOut Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out.gif)
+     * ![EaseOut Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out.gif)
      */
     private fun easeOut(fraction: Float): Float {
         return cubicBezierEasing(0f, 0f, 0.58f, 1f, fraction)
@@ -82,7 +82,7 @@ object EasingProvider {
     /**
      * Easing Curve that starts slowly and ends quickly.
      *
-     * ![EaseIn Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in.gif)
+     * ![EaseIn Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in.gif)
      */
     private fun easeIn(fraction: Float): Float {
         return cubicBezierEasing(0.42f, 0f, 1f, 1f, fraction)
@@ -91,7 +91,7 @@ object EasingProvider {
     /**
      * Easing Curve that starts slowly, speeds up and then ends slowly.
      *
-     * ![EaseInOut Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out.gif)
+     * ![EaseInOut Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out.gif)
      */
     private fun easeInOut(fraction: Float): Float {
         return cubicBezierEasing(0.42f, 0.0f, 0.58f, 1.0f, fraction)
@@ -100,175 +100,175 @@ object EasingProvider {
     /**
      * Easing Curve that starts slowly and ends quickly. Similar to EaseIn, but with slightly less abrupt beginning
      *
-     *  ![EaseInSine Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_sine.gif)
+     *  ![EaseInSine Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_sine.gif)
      */
     private fun easeInSine(fraction: Float): Float {
         return cubicBezierEasing(0.12f, 0f, 0.39f, 0f, fraction)
     }
 
     /**
-     *  ![EaseOutSine Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_sine.gif)
+     *  ![EaseOutSine Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_sine.gif)
      */
     private fun easeOutSine(fraction: Float): Float {
         return cubicBezierEasing(0.61f, 1f, 0.88f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInOutSine Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_sine.gif)
+     *  ![EaseInOutSine Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_sine.gif)
      */
     private fun easeInOutSine(fraction: Float): Float {
         return cubicBezierEasing(0.37f, 0f, 0.63f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInCubic Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_cubic.gif)
+     *  ![EaseInCubic Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_cubic.gif)
      */
     private fun easeInCubic(fraction: Float): Float {
         return cubicBezierEasing(0.32f, 0f, 0.67f, 0f, fraction)
     }
 
     /**
-     *  ![EaseOutCubic Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_cubic.gif)
+     *  ![EaseOutCubic Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_cubic.gif)
      */
     private fun easeOutCubic(fraction: Float): Float {
         return cubicBezierEasing(0.33f, 1f, 0.68f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInOutCubic Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_cubic.gif)
+     *  ![EaseInOutCubic Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_cubic.gif)
      */
     private fun easeInOutCubic(fraction: Float): Float {
         return cubicBezierEasing(0.65f, 0f, 0.35f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInQuint Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_quint.gif)
+     *  ![EaseInQuint Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_quint.gif)
      */
     private fun easeInQuint(fraction: Float): Float {
         return cubicBezierEasing(0.64f, 0f, 0.78f, 0f, fraction)
     }
 
     /**
-     *  ![EaseOutQuint Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_quint.gif)
+     *  ![EaseOutQuint Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_quint.gif)
      */
     private fun easeOutQuint(fraction: Float): Float {
         return cubicBezierEasing(0.22f, 1f, 0.36f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInOutQuint Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_quint.gif)
+     *  ![EaseInOutQuint Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_quint.gif)
      */
     private fun easeInOutQuint(fraction: Float): Float {
         return cubicBezierEasing(0.83f, 0f, 0.17f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInCirc Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_circ.gif)
+     *  ![EaseInCirc Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_circ.gif)
      */
     private fun easeInCirc(fraction: Float): Float {
         return cubicBezierEasing(0.55f, 0f, 1f, 0.45f, fraction)
     }
 
     /**
-     *  ![EaseOutCirc Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_circ.gif)
+     *  ![EaseOutCirc Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_circ.gif)
      */
     private fun easeOutCirc(fraction: Float): Float {
         return cubicBezierEasing(0f, 0.55f, 0.45f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInOutCirc Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_circ.gif)
+     *  ![EaseInOutCirc Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_circ.gif)
      */
     private fun easeInOutCirc(fraction: Float): Float {
         return cubicBezierEasing(0.85f, 0f, 0.15f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInQuad Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_quad.gif)
+     *  ![EaseInQuad Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_quad.gif)
      */
     private fun easeInQuad(fraction: Float): Float {
         return cubicBezierEasing(0.11f, 0f, 0.5f, 0f, fraction)
     }
 
     /**
-     *  ![EaseOutQuad Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_quad.gif)
+     *  ![EaseOutQuad Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_quad.gif)
      */
     private fun easeOutQuad(fraction: Float): Float {
         return cubicBezierEasing(0.5f, 1f, 0.89f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInOutQuad Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_quad.gif)
+     *  ![EaseInOutQuad Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_quad.gif)
      */
     private fun easeInOutQuad(fraction: Float): Float {
         return cubicBezierEasing(0.45f, 0f, 0.55f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInQuart Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_quart.gif)
+     *  ![EaseInQuart Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_quart.gif)
      */
     private fun easeInQuart(fraction: Float): Float {
         return cubicBezierEasing(0.5f, 0f, 0.75f, 0f, fraction)
     }
 
     /**
-     *  ![EaseOutQuart Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_quart.gif)
+     *  ![EaseOutQuart Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_quart.gif)
      */
     private fun easeOutQuart(fraction: Float): Float {
         return cubicBezierEasing(0.25f, 1f, 0.5f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInOutQuart Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_quart.gif)
+     *  ![EaseInOutQuart Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_quart.gif)
      */
     private fun easeInOutQuart(fraction: Float): Float {
         return cubicBezierEasing(0.76f, 0f, 0.24f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInExpo Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_expo.gif)
+     *  ![EaseInExpo Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_expo.gif)
      */
     private fun easeInExpo(fraction: Float): Float {
         return cubicBezierEasing(0.7f, 0f, 0.84f, 0f, fraction)
     }
 
     /**
-     *  ![EaseOutExpo Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_expo.gif)
+     *  ![EaseOutExpo Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_expo.gif)
      */
     private fun easeOutExpo(fraction: Float): Float {
         return cubicBezierEasing(0.16f, 1f, 0.3f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInOutExpo Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_expo.gif)
+     *  ![EaseInOutExpo Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_expo.gif)
      */
     private fun easeInOutExpo(fraction: Float): Float {
         return cubicBezierEasing(0.87f, 0f, 0.13f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInBack Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_back.gif)
+     *  ![EaseInBack Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_back.gif)
      */
     private fun easeInBack(fraction: Float): Float {
         return cubicBezierEasing(0.36f, 0f, 0.66f, -0.56f, fraction)
     }
 
     /**
-     *  ![EaseOutBack Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_back.gif)
+     *  ![EaseOutBack Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_back.gif)
      */
     private fun easeOutBack(fraction: Float): Float {
         return cubicBezierEasing(0.34f, 1.56f, 0.64f, 1f, fraction)
     }
 
     /**
-     *  ![EaseInOutBack Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_back.gif)
+     *  ![EaseInOutBack Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_back.gif)
      */
     private fun easeInOutBack(fraction: Float): Float {
         return cubicBezierEasing(0.68f, -0.6f, 0.32f, 1.6f, fraction)
     }
 
     /**
-     *  ![EaseInElastic Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_elastic.gif)
+     *  ![EaseInElastic Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_elastic.gif)
      */
     private fun easeInElastic(fraction: Float): Float {
         val c4 = (2f * PI) / 3f
@@ -283,7 +283,7 @@ object EasingProvider {
     }
 
     /**
-     *  ![EaseOutElastic Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_elastic.gif)
+     *  ![EaseOutElastic Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_elastic.gif)
      */
     private fun easeOutElastic(fraction: Float): Float {
         val c4 = (2f * PI) / 3f
@@ -298,7 +298,7 @@ object EasingProvider {
     }
 
     /**
-     *  ![EaseInOutElastic Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_elastic.gif)
+     *  ![EaseInOutElastic Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_elastic.gif)
      */
     private fun easeInOutElastic(fraction: Float): Float {
         val c5 = (2f * PI) / 4.5f
@@ -316,7 +316,7 @@ object EasingProvider {
     }
 
     /**
-     *  ![EaseOutBounce Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_out_bounce.gif)
+     *  ![EaseOutBounce Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_out_bounce.gif)
      */
     private fun easeOutBounce(fraction: Float): Float {
         val n1 = 7.5625f
@@ -338,14 +338,14 @@ object EasingProvider {
     }
 
     /**
-     *  ![EaseInBounce Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_bounce.gif)
+     *  ![EaseInBounce Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_bounce.gif)
      */
     private fun easeInBounce(fraction: Float): Float {
         return 1 - easeOutBounce(1f - fraction)
     }
 
     /**
-     *  ![EaseInOutBounce Curve](https://developer.android.com/images/reference/androidx/compose/animation-core/ease_in_out_bounce.gif)
+     *  ![EaseInOutBounce Curve](https://raw.githubusercontent.com/slaviboy/RepositoryImages/main/gifs/interpolations/ease_in_out_bounce.gif)
      */
     private fun easeInOutBounce(fraction: Float): Float {
         return if (fraction < 0.5) {
